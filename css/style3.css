@@ -152,7 +152,10 @@
     top: 0;
 }
 .service_item:hover .service_icon{
-    top: 100%;
+    top: 45%;
+    transition: 2s;
+    transition: all;
+    line-height: 45%;
 }
 .service_icon{
     height: 100%;
@@ -160,8 +163,23 @@
     position: absolute;
     bottom: -100%;
     transition: 2s;
+    left: 35%;
+    transition: all;
 }
-.service_icon i{}
+.service_icon i{
+    height: 40px;
+    width: 40px;
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 40px;
+    transition: 1s;
+    border-radius: 100%;
+    color: #fff;
+}
+.service_icon i:hover{
+    background-color: #87d37c;
+    border: 1px solid #87d37;
+}
 /*Row3 end*/
 
 
