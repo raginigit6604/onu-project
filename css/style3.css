@@ -1,7 +1,8 @@
+/*Row 1 start*/
 #row1{
     height: 650px;
     width: 100%;
-    background: url(../c:\Users\91785\Downloads\Layer 61.jpg);
+   background: url(../images/js/services1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-repeat: round;
@@ -12,6 +13,7 @@
     height: 100%;
     width: 100%;
     background: rgba(0,0,0,.5);
+    background-size: cover;
 }
 .container-custom{
     width: 90%;
@@ -21,7 +23,7 @@
 .navbar{}
 .navbar-brand img {
     height: 65px;
-    padding: 10px 34px 0px 30px;
+    padding: 12px ;
 }
 .slider_section {
     color: #fff;
@@ -30,13 +32,7 @@
 }
 .carousel-item{}
 .carousel-item h2{}
-.carousel-item h1 {
-    border: 10px solid #fff;
-    width: 470px;
-    font-size: 59px;
-    padding: 16px;
-    margin: 15px auto;
-}
+ 
 .carousel-item h3 {
     margin-bottom: 80px;
 }
@@ -64,3 +60,108 @@
     color: #fff;
     text-transform: uppercase;
 }
+/*Row1 end*/
+
+/*Row 2 start*/
+#row2{
+    height: 500px;
+    width: 100vw;
+    background-color: #fff;
+}
+.about_section{}
+.about_top{
+    text-align: center;
+    padding: 0px 0px;
+}
+.about_top h2{
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.about_top p{
+    width: 700px;
+    margin: 0 auto;
+}
+.about_bottom{}
+.about_item{
+    text-align: center;
+}
+.about_item i{
+    font-size: 50px;
+    padding: 10px 0px;
+}
+.about_item h4{
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.about_item p{
+    text-align: justify;
+}
+.about_item:hover i{
+    color: #87d37c;
+    transition: 1s;
+}
+.about_item:hover h4{
+    color: #87d37c;
+
+}
+
+/*Row2 end*/
+
+
+/*Row3 start*/
+#row3{
+    height: 500px;
+    width: 100vw;
+    background-color:#e1e1e1;
+}
+.service_section{}
+.service_top{
+    text-align: center;
+    padding: 50px 0px;
+}
+.service_top h2{
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.service_top p{
+    width: 700px;
+    margin: 0 auto;
+}
+.service_bottom{}
+.service_item{
+    height: 220px;
+    width: 250px;
+    position: relative;
+    overflow: hidden;
+}
+.service_item img{
+    height:100%;
+    width: 100%;
+    position: absolute;
+}
+.service_overlay{
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.5);
+    position: absolute;
+    top: -100%;
+    transition: 2s;
+}
+.service_item:hover .service_overlay{
+    top: 0;
+}
+.service_item:hover .service_icon{
+    top: 100%;
+}
+.service_icon{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: -100%;
+    transition: 2s;
+}
+.service_icon i{}
+/*Row3 end*/
+
+
